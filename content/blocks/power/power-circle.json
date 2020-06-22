@@ -4,7 +4,7 @@
   "outputsPower": true,
   "consumesPower": true,
   "consumes": {
-    "power": 0.05
+    "power": 10
   },
   "size": 1,
   "solid": false,
