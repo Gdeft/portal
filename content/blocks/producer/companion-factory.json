@@ -1,0 +1,20 @@
+{
+  "type": "UnitFactory",
+  "produceTime": 10,
+  "launchVelocity": 0.4,
+  "size": 2,
+  "maxSpawn": 1,
+  "unitType": "companion-cube",
+  "consumes": {
+    "power": 0.05
+  },
+  "requirements": [
+    {"item": "copper", "amount": 300},
+    {"item": "lead", "amount": 350},
+    {"item": "thorium", "amount": 666}
+  ],
+  "breakable": false,
+  "destructible": false,
+  "buildVisibility": "sandboxOnly",
+  "category": "power"
+}

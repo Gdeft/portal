@@ -1,0 +1,9 @@
+{
+ "health": 1,
+ "destructible": true,
+ "targetable": true,
+ "breakable": true,
+ "size": 2,
+ "buildVisibility": "sandboxOnly",
+ "category": "defense"
+}

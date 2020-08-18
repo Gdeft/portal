@@ -1,0 +1,22 @@
+ {
+  "size": 1,
+  "breakable": true,
+  "timers": 1,
+  "update": true,
+  "category": "power",
+  "requirements": [
+     {"item": "copper", "amount": 260},
+     {"item": "lead", "amount": 270},
+     {"item": "silicon", "amount": 250}
+   ],
+  "sync": true,
+  "expanded": true,
+  "destructible": false,
+  "hasPower": true,
+  "outputsPower": true,
+  "consumesPower": false,
+  "consumesTap": false,
+  "targetable": false,
+  "buildVisibility": "sandboxOnly",
+  "solid": true
+}

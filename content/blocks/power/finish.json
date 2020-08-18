@@ -1,0 +1,14 @@
+ {
+  "size": 3,
+  "breakable": false,
+  "timers": 1,
+  "update": true,
+  "category": "power",
+  "sync": true,
+  "destructible": false,
+  "hasPower": true,
+  "outputsPower": true,
+  "consumesPower": false,
+  "targetable": false,
+  "solid": false
+}

@@ -1,0 +1,13 @@
+{
+  "type": "PowerNode",
+  "laserRange": 0,
+  "maxNodes": 0,
+  "outputsPower": true,
+  "size": 1,
+  "solid": false,
+  "buildVisibility": "sandboxOnly",
+  "hasShadow": false,
+  "fillsTile": false,
+  "destructible": false,
+  "category": "power"
+}

@@ -1,0 +1,17 @@
+{
+ "size": 1,
+ "sync": true,
+ "update": true,
+ "rotate": true,
+ "configurable": false,
+ "consumesTap": false,
+ "destructible": false,
+ "targetable": false,
+ "hasShadow": false,
+ "buildVisibility": "sandboxOnly",
+ "outputsPower": true,
+ "consumes": {
+  "power": 0.05
+ },
+ "category": "power"
+}

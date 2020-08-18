@@ -1,0 +1,15 @@
+{
+ "size": 2,
+ "sync": true,
+ "update": true,
+ "rotate": true,
+ "configurable": false,
+ "consumesTap": false,
+ "destructible": false,
+ "targetable": false,
+ "buildVisibility": "sandboxOnly",
+ "consumes": {
+  "power": 6
+ },
+ "category": "defense"
+}

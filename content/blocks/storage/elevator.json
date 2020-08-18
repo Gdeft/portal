@@ -1,0 +1,12 @@
+{
+ "type": "CoreBlock",
+ "hasItems": true,
+ "mech": "alpha-mech",
+ "targetable": false,
+ "destructible": false,
+ "breakable": false,
+ "solid": true,
+ "size": 1,
+ "expanded": true,
+ "buildVisibility": "hidden"
+}
