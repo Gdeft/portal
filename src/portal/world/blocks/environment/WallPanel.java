@@ -22,7 +22,7 @@ public class WallPanel extends Wall{
 		
 		health = 1;
 		flashHit = false;
-		deflect = false;
+		//deflect = false;
 	}
 	
 	@Override
