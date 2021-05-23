@@ -18,7 +18,7 @@ public class Portal extends Mod{
 		Log.info("Loaded Portal constructor.");
 
 		Events.on(ClientLoadEvent.class, e -> {
-			Timer.runTask(10f, () -> {
+			Time.runTask(10f, () -> {
 				BaseDialog dialog = new BaseDialog("@dialog.startup.title");
 				
 				dialog.cont.pane(p -> {
