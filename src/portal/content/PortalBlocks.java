@@ -61,7 +61,7 @@ public class PortalBlocks implements ContentList{
 		}};
 		
 		conductorWallLarge = new WallPanel("conductor-wall-large"){{
-			requirements(Category.defense, with(Items.lead, 20, Items.silicon, 8);
+			requirements(Category.defense, with(Items.lead, 20, Items.silicon, 8));
 			isConductor = true;
 			size = 2;
 			buildVisibility = BuildVisibility.sandboxOnly;
@@ -92,7 +92,7 @@ public class PortalBlocks implements ContentList{
 		}};
 		
 		isolatorWallLarge = new WallPanel("isolator-wall-large"){{
-			requirements(Category.defense, with(Items.lead, 20, Items.metaglass, 8);
+			requirements(Category.defense, with(Items.lead, 20, Items.metaglass, 8));
 			isConductor = false;
 			size = 2;
 			buildVisibility = BuildVisibility.sandboxOnly;
