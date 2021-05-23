@@ -3,7 +3,7 @@
 	"displayName": "Portal",
 	"author": "Gdeft",
 	"main": "portal.Portal",
-	"description": "Simulates the world of Aperture Science Enrichment Center in Mindustry. Built using github actions",
+	"description": "Simulates the world of Aperture Science Enrichment Center in Mindustry.",
 	"version": "0.1.0",
 	"minGameVersion": "108"
 }
