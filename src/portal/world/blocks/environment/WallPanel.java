@@ -29,7 +29,7 @@ public class WallPanel extends Wall{
 	public void setStats(){
 		super.setStats();
 		
-		stats.remove(BlockStat.health);
+		//stats.remove(BlockStat.health);
 	}
 	
 	@Override
