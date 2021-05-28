@@ -46,8 +46,8 @@ public class PowerTransferer extends PowerNode{
 	public void setStats(){
 		super.setStats();
 		
-		stats.remove(BlockStat.powerRange);
-		stats.remove(BlockStat.powerConnections);
+		Stats.remove(BlockStat.powerRange);
+		Stats.remove(BlockStat.powerConnections);
 	}
 	
 	@Override
