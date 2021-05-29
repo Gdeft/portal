@@ -117,6 +117,12 @@ public class PortalBlocks implements ContentList{
 			isClear = true;
 		}};
 		
+		InvisiblePowerSource = new PowerTransferer("invisible-power-source"){{
+			requirements(Category.power, with());
+			health = 40;
+			isClear = true;
+		}};
+		
 		//endregion
 	}
 }
