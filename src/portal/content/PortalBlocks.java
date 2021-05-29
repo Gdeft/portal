@@ -121,7 +121,9 @@ public class PortalBlocks implements ContentList{
 			requirements(Category.power, with());
 			health = 40;
 			isClear = true;
+			buildVisibility = BuildVisibility.sandboxOnly;
 		}};
+		
 		
 		//endregion
 	}
