@@ -41,7 +41,7 @@ public class PortalBlocks implements ContentList{
 	conductorFloor, conductorWall, conductorWallLarge, goo, isolatorFloor, isolatorWall, isolatorWallLarge,
 	
 	//power
-	powerTransferer, powerTransfererHollow, powerTransfererClear;
+	powerTransferer, powerTransfererHollow, powerTransfererClear, InvisiblePowerSource;
 	
 	@Override
 	public void load(){
@@ -117,7 +117,7 @@ public class PortalBlocks implements ContentList{
 			isClear = true;
 		}};
 		
-		InvisiblePowerSource = new PowerTransferer("invisible-power-source"){{
+		InvisiblePowerSource = new InvisiblePowerSource("invisible-power-source"){{
 			requirements(Category.power, with());
 			health = 40;
 			isClear = true;
