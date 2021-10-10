@@ -5,6 +5,8 @@ on:
     branches: [ 6.0 ]
   pull_request:
     branches: [ 6.0 ]
+  workflow_dispatch:
+    branches: [ 6.0 ]
 
 jobs:
   buildJar:
@@ -14,8 +16,8 @@ jobs:
     - uses: actions/checkout@v1
     - name: Set up PATH
       run: |
-        echo "::add-path::${ANDROID_HOME}/build-tools/30.0.1"
-        echo ::set-env name=REPOSITORY_NAME::$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}')
+        echo "${ANDROID_HOME}/build-tools/30.0.1" >> $GITHUB_PATH
+        echo "REPOSITORY_NAME=portal" >> $GITHUB_ENV
     - name: Set up JDK 14
       uses: actions/setup-java@v1
       with:

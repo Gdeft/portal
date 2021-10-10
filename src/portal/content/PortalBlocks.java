@@ -41,7 +41,7 @@ public class PortalBlocks implements ContentList{
 	conductorFloor, conductorWall, conductorWallLarge, goo, isolatorFloor, isolatorWall, isolatorWallLarge,
 	
 	//power
-	powerTransferer, powerTransfererHollow, powerTransfererClear;
+	powerTransferer, powerTransfererHollow, powerTransfererClear, InvisiblePowerSource;
 	
 	@Override
 	public void load(){
@@ -61,7 +61,7 @@ public class PortalBlocks implements ContentList{
 		}};
 		
 		conductorWallLarge = new WallPanel("conductor-wall-large"){{
-			requirements(Category.defense, mult(conductorWall.requirements, 4));
+			requirements(Category.defense, with(Items.lead, 20, Items.silicon, 8));
 			isConductor = true;
 			size = 2;
 			buildVisibility = BuildVisibility.sandboxOnly;
@@ -92,7 +92,7 @@ public class PortalBlocks implements ContentList{
 		}};
 		
 		isolatorWallLarge = new WallPanel("isolator-wall-large"){{
-			requirements(Category.defense, mult(isolatorWall.requirements, 4));
+			requirements(Category.defense, with(Items.lead, 20, Items.metaglass, 8));
 			isConductor = false;
 			size = 2;
 			buildVisibility = BuildVisibility.sandboxOnly;
@@ -116,6 +116,14 @@ public class PortalBlocks implements ContentList{
 			health = 10;
 			isClear = true;
 		}};
+		
+		InvisiblePowerSource = new InvisiblePowerSource("invisible-power-source"){{
+			requirements(Category.power, with());
+			health = 40;
+			isClear = true;
+			buildVisibility = BuildVisibility.sandboxOnly;
+		}};
+		
 		
 		//endregion
 	}

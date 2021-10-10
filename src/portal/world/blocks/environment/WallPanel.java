@@ -22,14 +22,14 @@ public class WallPanel extends Wall{
 		
 		health = 1;
 		flashHit = false;
-		deflect = false;
+		//deflect = false;
 	}
 	
 	@Override
 	public void setStats(){
 		super.setStats();
 		
-		stats.remove(BlockStat.health);
+		//stats.remove(BlockStat.health);
 	}
 	
 	@Override
